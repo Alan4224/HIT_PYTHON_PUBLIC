@@ -1,0 +1,5 @@
+n=int(input())
+lis=list(map(int, input().split()))
+lis=set(lis)
+lis=list(lis)
+print(lis[-1]+1)
