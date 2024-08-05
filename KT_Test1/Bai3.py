@@ -5,4 +5,8 @@ for i in range(n):
     hungDict[key] = value
 out=set(hungDict.values())
 out=list(out)
-print(hungDict.get(out[-2]))
+find = out[-2]
+for key, value in hungDict.items():
+    if value == find:
+        print(key)
+
